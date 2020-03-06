@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="description" content="Description content">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
   <title>@yield('title')</title>
 
   <!-- Fonts -->
@@ -45,6 +46,8 @@
 </style>
 </head>
 <body>
+  <h1 style="display:none"> This is car site </h1>
+  <h2 style="display:none"> This is car site </h2>
   <div class="flex-center position-ref full-height">
     <div class="content">
       <div class="title">

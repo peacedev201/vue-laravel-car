@@ -11,11 +11,15 @@ $config = [
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>{{ config('app.name') }}</title>
+  <meta name="description" content="Description content">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/@coreui/coreui/dist/css/coreui.min.css">
 </head>
 <body style="margin: 0;">
   <div id="admin">
+  <h1 style="display:none"> This is car site </h1>
+  <h2 style="display:none"> This is car site </h2>
   </div>
 
   {{-- Global configuration object --}}
