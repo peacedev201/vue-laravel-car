@@ -1,9 +1,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>{{ config('app.name') }}</title>
-  <meta name="description" content="Description content">
-  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <title> iAuto - Best på Bruktbil</title>
+  <meta name="description" content="Kjøp brukte biler av topp kvalitet til ditt neste prosjekt fra det største og mest pålitelige bilstedet. Lær hvordan du kan få fantastiske biler mer gjort med økt produktivitet og finn ut hvorfor 90% av kundene våre kommer hit."/>
+  <meta name="keywords" content="car,high-quality,buy,trust"/>
   <script>
     window.opener.postMessage({ token: "{{ $token }}" }, "{{ url('/') }}")
     window.close()

@@ -3,7 +3,7 @@
     <div class="row register-view">
       <div class="col-md-6 register-view-private">
         <h3>{{$t('Private')}}</h3>
-        <h6>{{$t('Get started with buying and selling at iAuto.no')}}</h6>
+        <h6>{{$t('txt_private')}}</h6>
         <div class="row private-div">
           <ul>
             <li><i class="fas fa-check" style="color: #58ba3a;"></i>&nbsp;&nbsp;{{$t('Exciting')}}</li>
@@ -15,7 +15,7 @@
       </div>
       <div class="col-md-6 register-view-company">
         <h3>{{$t('Company')}}</h3>
-        <h6>{{$t('iAuto.no makes buying and selling easy for your company')}}</h6>
+        <h6>{{$t('txt_company')}}</h6>
         <div class="row company-div">
           <ul>
             <li><i class="fas fa-check" style="color: #58ba3a;"></i>&nbsp;&nbsp;{{$t('We sell fast')}}</li>

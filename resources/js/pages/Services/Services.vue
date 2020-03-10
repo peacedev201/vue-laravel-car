@@ -169,19 +169,19 @@
         :options="slickOptions"
         >
             <div class="slider_div">
-                <img src="images/dnb.jpg" class="slider_img"/>
+                <img src="images/dnb.jpg" class="slider_img" alt/>
             </div>
             <div class="slider_div">
-                <img src="images/gjensidige.jpg" class="slider_img"/>
+                <img src="images/gjensidige.jpg" class="slider_img" alt/>
             </div>
             <div class="slider_div">
-                <img src="images/if.jpg" class="slider_img"/>
+                <img src="images/if.jpg" class="slider_img" alt/>
             </div>
             <div class="slider_div">
-                <img src="images/autoconcept.jpg" class="slider_img"/>
+                <img src="images/autoconcept.jpg" class="slider_img" alt/>
             </div>
             <div class="slider_div">
-                <img src="images/asnorsk.jpg" class="slider_img"/>
+                <img src="images/asnorsk.jpg" class="slider_img" alt/>
             </div>
         </slick>
     </div>

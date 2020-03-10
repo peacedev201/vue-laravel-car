@@ -31,24 +31,24 @@
              <div style="display: flex; transition-delay: 1.5s; transition-duration: 1s; border-radius: 50%; background: #cc6119; width: 310px; height: 310px; align-items: center; justify-contents: center;">
                <div style="display: block;">
                  <div style="width: 150px; margin-left: auto; margin-right: auto;">
-                    <h6 style="color: white;">2016 new</h6>
+                    <h6 style="color: white;">2016 {{$t('new')}}</h6>
                     <h6 style="color: black;">MERCEDES-BENS</h6>
                     <h6 style="color: black;">C-CLASS</h6>
                  </div>
                  <div style="width: 300px;">
-                    <h6 style="padding-left: 5px;">Auction ID: 1</h6>
-                    <h6 style="color: black; text-align: right; font-size: 13px; margin-right: 20px;">CURRENT BID: 463 000,-Kr</h6>
+                    <h6 style="padding-left: 5px;">{{$t('auction_id')}}: 1</h6>
+                    <h6 style="color: black; text-align: right; font-size: 13px; margin-right: 20px;">{{$t('currentbid')}}: 463 000,-Kr</h6>
                     <div style="display: flex; justify-content: center; align-items: baseline;">
-                        <h6 style="color: black;">My Bid</h6>
+                        <h6 style="color: black;">{{$t('mybid')}}</h6>
                         <input class="form-control" type="text" style="text-align: right; margin-left: 10px; width: 65%;" placeholder="464 000"/>
                     </div>
                     <div style="display: flex; justify-content: flex-end; align-items: baseline; padding-top: 5px;">
-                        <button class="btn btn-primary" style="margin-right: 10px; font-size: 14px; background: #58ba3a; border: #58ba3a;">Bid</button>
-                        <button class="btn btn-primary" style="margin-right: 20px; font-size: 14px; background: #58ba3a; border: #58ba3a;">Auto Bid</button>
+                        <button class="btn btn-primary" style="margin-right: 10px; font-size: 14px; background: #58ba3a; border: #58ba3a;">{{$t('bid')}}</button>
+                        <button class="btn btn-primary" style="margin-right: 20px; font-size: 14px; background: #58ba3a; border: #58ba3a;">{{$t('auto_bid')}}</button>
                     </div>
                     <div style="display: flex; justify-content: center; align-items: baseline; padding-top: 10px;">
-                        <h6 style="font-size: 12px;">TIME LEFT:</h6>
-                        <h6 style="font-size: 12px;">1 DAY 2:30 MINUTES</h6>
+                        <h6 style="font-size: 12px;">{{$t('time_left')}}:</h6>
+                        <h6 style="font-size: 12px;">1 {{$t('DAY')}} 2:30 {{$t('MINUTES')}}</h6>
                     </div>
                  </div>
                </div>

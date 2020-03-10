@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-white" style="padding: 0px;">
     <div class="container-fluid" style="background: black;">
       <!-- <router-link :to="{ name: user ? 'home' : 'welcome' }" class="navbar-brand"> -->
-        <img src="images/logo.svg" class="logo"/>
+        <img src="images/logo.svg" class="logo" alt/>
       <!-- </router-link> -->
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false">
@@ -23,7 +23,7 @@
             <a class="nav-link dropdown-toggle text-dark"
                href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
             >
-              <img :src="user.photo_url" class="rounded-circle profile-photo mr-1">
+              <img :src="user.photo_url" class="rounded-circle profile-photo mr-1" alt>
               {{ user.name }}
             </a>
             <div class="dropdown-menu">

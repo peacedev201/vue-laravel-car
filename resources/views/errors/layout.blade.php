@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Description content">
-  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-  <title>@yield('title')</title>
+  <meta name="description" content="Kjøp brukte biler av topp kvalitet til ditt neste prosjekt fra det største og mest pålitelige bilstedet. Lær hvordan du kan få fantastiske biler mer gjort med økt produktivitet og finn ut hvorfor 90% av kundene våre kommer hit."/>
+  <meta name="keywords" content="car,high-quality,buy,trust"/>
+  <title> iAuto - Best på Bruktbil</title>
 
   <!-- Fonts -->
   <!-- Styles -->
@@ -46,8 +46,8 @@
 </style>
 </head>
 <body>
-  <h1 style="display:none"> This is car site </h1>
-  <h2 style="display:none"> This is car site </h2>
+  <h1 style="display:none"> Buy top‑quality used cars for your next project from the largest and most trusted car site. Learn how you can get great cars more done with increased productivity and find out why 90% of our customers come here. </h1>
+  <h2 style="display:none"> Buy top‑quality used cars for your next project from the largest and most trusted car site. Learn how you can get great cars more done with increased productivity and find out why 90% of our customers come here. </h2>
   <div class="flex-center position-ref full-height">
     <div class="content">
       <div class="title">

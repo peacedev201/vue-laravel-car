@@ -1,7 +1,7 @@
 <template>
     <div class="auth-layout">
         <div class="va-card auth-layout_card">
-            <img src="/images/logo.svg" class="logo" />
+            <img src="/images/logo.svg" class="logo" alt />
             <div>
                 <form @submit.prevent="login" @keydown="form.onKeydown($event)">
                     <b-form-group

@@ -8,13 +8,13 @@
             <div>
               <slick ref="slick1" :options="slickOptions1" id="slick1">
                 <div class="slider_car_div" v-for="(item, index) in sliderAds" v-bind:key="index">
-                  <img v-lazy="item.URL" class="list-img" />
+                  <img v-lazy="item.URL" class="list-img" alt/>
                 </div>
               </slick>
               <div class="container" style="padding: 0; margin-top: 10px;">
                 <slick ref="slick2" :options="slickOptions2" id="slick2">
                   <div class="slider_car_div" v-for="(item1, index1) in sliderAds" v-bind:key="index1">
-                    <img v-lazy="item1.URL_THUMB" class="slider_car_img" />
+                    <img v-lazy="item1.URL_THUMB" class="slider_car_img" alt/>
                   </div>
                 </slick>
               </div>

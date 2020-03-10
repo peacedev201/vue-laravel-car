@@ -15,9 +15,10 @@ class SetLocale
      */
     public function handle($request, Closure $next)
     {
-        if ($locale = $this->parseLocale($request)) {
-            app()->setLocale($locale);
-        }
+        // if ($locale = $this->parseLocale($request)) {
+        //     app()->setLocale($locale);
+        // }
+        app()->setLocale('nb');
 
         return $next($request);
     }
@@ -30,7 +31,13 @@ class SetLocale
     {
         $locales = config('app.locales');
         $locale = $request->server('HTTP_ACCEPT_LANGUAGE');
+        
+        print_r($locale);
+        exit;
+        
         $locale = substr($locale, 0, strpos($locale, ',') ?: strlen($locale));
+
+        
 
         if (array_key_exists($locale, $locales)) {
             return $locale;
@@ -38,6 +45,7 @@ class SetLocale
 
         $locale = substr($locale, 0, 2);
         if (array_key_exists($locale, $locales)) {
+            
             return $locale;
         }
     }

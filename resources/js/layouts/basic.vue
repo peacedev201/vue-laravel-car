@@ -14,6 +14,7 @@ export default {
   @font-face { 
        font-family: "Montserrat";
        src: url("/montserrat/Montserrat-Regular.otf"); 
+       font-display: swap;
   }
   * {
     font-family: "Montserrat";

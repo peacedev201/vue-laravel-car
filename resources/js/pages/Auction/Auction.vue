@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="row cars-auction-mobile-header" style="margin: 0;">
-            <img src="images/13.jpg" alt="" class="image_bg"/>
+            <img src="images/13.jpg" alt="" class="image_bg" />
             <div class="container mobile-header-title" style="position: absolute; padding: 0;">
                 <h1 style="color: white; text-transform: uppercase;">{{$t('auction')}}</h1>
             </div>

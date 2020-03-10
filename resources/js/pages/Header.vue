@@ -2,7 +2,7 @@
   <div class="header-main">
     <div class="container mobile-header-logo" style="top: 0px; display: flex; padding: 0;">
       <div class="col-md-4" style="padding: 0;">
-        <img src="/images/logo.svg" class="logo" />
+        <img src="/images/logo.svg" class="logo" alt/>
         <!-- <img class="logo" :width="50" v-lazy="src" :data-srcset="src+'?size=50 50w'" alt />                             -->
       </div>
 
@@ -43,7 +43,7 @@
       <nav class="navbar navbar-expand-md navbar-light mobile-nav" id="mobile-nav">
         <div class="logo-main">
           <a class="navbar-brand mobile-brand-logo" href="#" style="display: none; height: 50px;">
-            <img src="/images/logo.svg" class="logo" />
+            <img src="/images/logo.svg" class="logo" alt/>
             <!-- <img class="logo" :width="50" v-lazy="src" :data-srcset="src+'?size=50 50w'" alt />                             -->
           </a>
           <button
@@ -102,7 +102,7 @@
                 <a class="nav-link dropdown-toggle text-dark"
                   href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                 >
-                  <img :src="user.photo_url" style="width: 15px;" class="rounded-circle profile-photo mr-1">
+                  <img :src="user.photo_url" style="width: 15px;" class="rounded-circle profile-photo mr-1" alt>
                   {{ user.name }}
                 </a>
                 <div class="dropdown-menu">

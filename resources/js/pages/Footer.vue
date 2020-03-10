@@ -5,7 +5,7 @@
       <div class="col-md-3 subscribe" style="text-align: center;">
           <h6 style="color: white;">{{$t('subscribe')}}</h6>
           <div class="input-group mb-3" style="width: 70%; margin-left: auto; margin-right: auto;">
-            <input type="email" class="form-control" placeholder="..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <input type="email" class="form-control" placeholder="..." aria-label="" aria-describedby="basic-addon2">
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary" type="button" style="background: #58ba3a;">
                     <i style="color: white;" class="fas fa-rss"></i>
@@ -46,7 +46,7 @@
       </ul>
     </div>
     <div class="row footer-copy-txt">
-        <h6 style="color: grey;">@ 2019 | {{$t('Trademarks and brands are the property of their respective owners.')}}</h6>
+        <h6 style="color: grey;">@ 2019 | {{$t('txt_footer')}}</h6>
     </div>
 
     </div>

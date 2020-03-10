@@ -72,6 +72,9 @@
   "auction_number": "Auction Number",
   "starting_price": "Starting Price",
   "mybid": "My bid",
+  "time_left": "TIME LEFT",
+  "auction_id": "Auction ID",
+  "currentbid": "Current Bid",
   "bid_increase": "Minimum bid increase",
   "bidding": "Bidding",
   "ends_in": "Ends in",
@@ -80,6 +83,16 @@
   "Closed": "Closed",
   "service_main_txt": "WE PROVIDE FINAS, GUARANTEE, INSURENACE OIL CHANGES, FACTORY SCHEDULED MAINTENANCE  AND ALMOST ALL AUTO REPAIRS. DON'T SEE IT ON THE LIST? JUST ASK! HAVING A BAD HEALTH DAY TODAY... MY MIND IS OUT OF WORK... WE HAVE AGREMENT WITH TOP INSUENSE COMPANIES AND CAN PROVIDE THE BESET INSURENSE FOR LOWEST POSSIBLE PRICE... OUR GAURANTEE PARTNERS ARE THE ONLY 2 LEADING SCANDINAVIEN COMPANIES OF EUROPE. AUTOCONCEAT AND NORSK BILGARANTI.",
   "serv7ice_main_txt":"Are you ready to give your car the service it is asking for?  Schedule car maintenance or repair right here.  Our top-notch service staff can get your car or truck in and out quickly.  We know there isn’t much more frustrating than being without your vehicle while it gets repaired.  That’s why we have a staff that excels in providing top-notch maintenance and repair – and is able to do it quickly.",
-  "txt_information": "Auction from iAuto AS has ended. We thank you for the bids - everyone receives an answer to the bids that have been submitted via email. The next auction is scheduled and emails with information will be sent when the cars are ready."
-  
+  "txt_information": "Auction from iAuto AS has ended. We thank you for the bids - everyone receives an answer to the bids that have been submitted via email. The next auction is scheduled and emails with information will be sent when the cars are ready.",
+  "txt_1":"Before we get ahead of ourselves, we want to welcome you to Loeber Motors. While nothing can replace thing on-the-lot experience.",
+  "txt_2":"We appreciate you taking the time today to visit our web site. Our goal is to give you an interactive tour of our new and used inventory, as well as allow you to conveniently get a quote, schedule a service appointment, or apply for financing. The search for a luxury car is filled with high expectations. Undoubtedly, that has a lot to do with the vehicles you are considering, but at Motors, we think you should also have pretty high expectations for your dealership.",
+  "txt_3":"We go through extensive factory training so that we may provide you with the knowledge you need to make an educated decision in choosing the vehicle that is right for your lifestyle.",
+  "sub_txt_1":"Stress-free finance department.",
+  "sub_txt_2":"Robust selection of popular vehicles.",
+  "sub_txt_3":"350 offers on site, trusted by a community.",
+  "sub_txt_4":"Maintain your car to stay safe on the road.",
+  "sub_txt_5":"We know how to handle a wide range of car services.",
+  "txt_footer":"Trademarks and brands are the property of their respective owners.",
+  "txt_private":"Get started with buying and selling at iAuto.no",
+  "txt_company":"iAuto.no makes buying and selling easy for your company"
 }

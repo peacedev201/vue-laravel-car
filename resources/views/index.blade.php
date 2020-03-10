@@ -11,10 +11,10 @@ $config = [
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
-  <title>{{ config('app.name') }}</title>
+  <title> iAuto - Best på Bruktbil</title>
 
-  <meta name="description" content="Description content">
-  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="description" content="Kjøp brukte biler av topp kvalitet til ditt neste prosjekt fra det største og mest pålitelige bilstedet. Lær hvordan du kan få fantastiske biler mer gjort med økt produktivitet og finn ut hvorfor 90% av kundene våre kommer hit."/>
+  <meta name="keywords" content="car,high-quality,buy,trust"/>
 
   {{-- <link rel="stylesheet" href="{{ mix('dist/css/app.css') }}"> --}}
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
@@ -30,8 +30,8 @@ $config = [
   </style>
 </head>
 <body>
-  <h1 style="display:none"> This is car site </h1>
-  <h2 style="display:none"> This is car site </h2>
+  <h1 style="display:none"> Buy top‑quality used cars for your next project from the largest and most trusted car site. Learn how you can get great cars more done with increased productivity and find out why 90% of our customers come here. </h1>
+  <h2 style="display:none"> Buy top‑quality used cars for your next project from the largest and most trusted car site. Learn how you can get great cars more done with increased productivity and find out why 90% of our customers come here. </h2>
     <div id="load"></div>
     <div id="app"></div>
   {{-- Global configuration object --}}

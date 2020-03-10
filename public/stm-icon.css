@@ -4,6 +4,7 @@
 	src: url('stm-icon.eot?oyuy2n#iefix') format('embedded-opentype'), url('stm-icon.ttf?oyuy2n') format('truetype'), url('stm-icon.woff?oyuy2n') format('woff'), url('stm-icon.svg?oyuy2n#stm-icon') format('svg');
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 }
 
 [class^="stm-icon-"], [class*=" stm-icon-"] {

@@ -41,11 +41,11 @@
                         <h1 class="text1" style="color: #58ba3a; font-size: 26px; font-weight: 900;">iAUTO AS</h1>
                     </div>
                     <h6 style="margin-top: 20px;">
-                        {{$t('Before we get ahead of ourselves, we want to welcome you to Loeber Motors. While nothing can replace thing on-the-lot experience.')}}    
+                        {{$t('txt_1')}}    
                     </h6>
 
                     <h6 style="margin-top: 20px; font-weight: 100;">
-                        {{$t('We appreciate you taking the time today to visit our web site. Our goal is to give you an interactive tour of our new and used inventory, as well as allow you to conveniently get a quote, schedule a service appointment, or apply for financing. The search for a luxury car is filled with high expectations. Undoubtedly, that has a lot to do with the vehicles you are considering, but at Motors, we think you should also have pretty high expectations for your dealership.')}}
+                        {{$t('txt_2')}}
                     </h6>
 
                     <p style="margin-top: 20px;"><span style="color: #888888;"><em>&nbsp;— {{$t('MIKEY DIOKLES, President of Motors')}}</em></span></p>
@@ -59,15 +59,15 @@
                     </div>
 
                     <h6 style="margin-top: 20px; font-weight: 100;">
-                        {{$t('We go through extensive factory training so that we may provide you with the knowledge you need to make an educated decision in choosing the vehicle that is right for your lifestyle.')}}                        
+                        {{$t('txt_3')}}                        
                     </h6>
 
                     <ul class="list-style-1">
-                        <li>{{$t('Stress-free finance department.')}}</li>
-                        <li>{{$t('Robust selection of popular vehicles.')}}</li>
-                        <li>{{$t('350 offers on site, trusted by a community.')}}</li>
-                        <li>{{$t('Maintain your car to stay safe on the road.')}}</li>
-                        <li>{{$t('We know how to handle a wide range of car services.')}}</li>
+                        <li>{{$t('sub_txt_1')}}</li>
+                        <li>{{$t('sub_txt_2')}}</li>
+                        <li>{{$t('sub_txt_3')}}</li>
+                        <li>{{$t('sub_txt_4')}}</li>
+                        <li>{{$t('sub_txt_5')}}</li>
                     </ul>
 
                 </div>

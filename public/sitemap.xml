@@ -8,7 +8,35 @@
 
 
 <url>
-  <loc>http://iauto.no/</loc>
+  <loc>https://iauto.no/</loc>
+  <lastmod>2020-03-06T03:01:36+00:00</lastmod>
+</url>
+<url>
+  <loc>http://iauto.no/car-sale</loc>
+  <lastmod>2020-03-06T03:01:36+00:00</lastmod>
+</url>
+<url>
+  <loc>http://iauto.no/auctions</loc>
+  <lastmod>2020-03-06T03:01:36+00:00</lastmod>
+</url>
+<url>
+  <loc>http://iauto.no/service</loc>
+  <lastmod>2020-03-06T03:01:36+00:00</lastmod>
+</url>
+<url>
+  <loc>http://iauto.no/about-us</loc>
+  <lastmod>2020-03-06T03:01:36+00:00</lastmod>
+</url>
+<url>
+  <loc>http://iauto.no/contact-us</loc>
+  <lastmod>2020-03-06T03:01:36+00:00</lastmod>
+</url>
+<url>
+  <loc>http://iauto.no/login</loc>
+  <lastmod>2020-03-06T03:01:36+00:00</lastmod>
+</url>
+<url>
+  <loc>http://iauto.no/register</loc>
   <lastmod>2020-03-06T03:01:36+00:00</lastmod>
 </url>
 
