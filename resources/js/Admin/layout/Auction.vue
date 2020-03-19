@@ -30,7 +30,7 @@
                 </td>
                 <td>
                   <div v-for="(items, index) in car.BILDE" :key="index">
-                    <img class="image" v-if="index===0" :width="50" v-lazy="items.URL" :data-srcset="items.URL+'?size=50 50w'" alt />
+                    <img class="image" v-if="index===0" :width="50" v-lazy="items.URL" :set="items.URL+'?size=50 50w'" alt />
                   </div>
                 </td>
                 <td>

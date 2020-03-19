@@ -1,6 +1,10 @@
 <template>
   <div class="container">
     <div class="row register-view">
+      <div class="col-md-12">
+        <h5 style="padding:30px; padding-bottom:0px">{{$t('register_txt')}}</h5>
+        <h5 style="padding:30px; padding-top:10px">{{$t('register_txt_note')}}</h5>
+      </div>
       <div class="col-md-6 register-view-private">
         <h3>{{$t('Private')}}</h3>
         <h6>{{$t('txt_private')}}</h6>
@@ -86,7 +90,7 @@ export default {
 
 <style scoped>
   .register-view {
-    padding-top: 200px;
+    padding-top: 150px;
     padding-bottom: 200px;
   }
   .register-view-private {

@@ -12,12 +12,20 @@
         <div class="row service-main">
           <div class="col-md-12 col-lg-8">
             <div style="display: flex;">
-              <h1 style="color: black; font-size: 22px;">{{$t('FINANCE GUARANTEE INSURANCE')}} & {{$t('COMMISSION')}}</h1>
+              <h1 style="color: black; font-size: 22px;">{{$t('We offer:')}}</h1>
             </div>
 
             <h6 class="service-main-txt">
-              {{$t('service_main_txt')}}
-              
+              {{$t('service_txt_1')}}              
+            </h6>
+            <h6 class="service-main-txt">
+              {{$t('service_txt_2')}}              
+            </h6>
+            <h6 class="service-main-txt" style="margin-left:20px">
+              {{$t('service_txt_3')}}              
+            </h6>
+            <h6 class="service-main-txt" style="margin-left:20px">
+              {{$t('service_txt_4')}}              
             </h6>
           </div>
           <div class="col-md-12 col-lg-4">
@@ -27,9 +35,12 @@
 
         <div class="row service-main">
           <div class="col-md-12 col-lg-8">
-            <h5 class="serv7ice-main-txt">
+            <div style="display: flex;">
+              <h1 style="color: black; font-size: 22px;">{{$t('service_title')}}</h1>
+            </div>
+            <h6 class="service-main-txt">
               {{$t('serv7ice_main_txt')}}
-            </h5>
+            </h6>
           </div>
           <div class="col-md-12 col-lg-4">
             <img class="service1-image" src="images/service-1.jpg" alt />
@@ -298,7 +309,7 @@ export default {
 .service-main-txt {
   margin-top: 20px;
   font-weight: 100;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 .parallax-container {
   position: relative;

@@ -44,31 +44,27 @@
                         {{$t('txt_1')}}    
                     </h6>
 
-                    <h6 style="margin-top: 20px; font-weight: 100;">
-                        {{$t('txt_2')}}
-                    </h6>
-
-                    <p style="margin-top: 20px;"><span style="color: #888888;"><em>&nbsp;— {{$t('MIKEY DIOKLES, President of Motors')}}</em></span></p>
+                    <p style="margin-top: 20px;"><span style="color: #888888;"><em>&nbsp;— {{$t('txt_4')}}</em></span></p>
                 </div>
             </div>
 
             <div class="row" style="margin-top: 50px;">
                 <div class="col-md-6">
                     <div style="display: flex;">
-                        <h1 style="color: black; font-size: 26px;">{{$t('CORE VALUES')}}</h1>
+                        <h1 style="color: black; font-size: 26px;">{{$t('History')}}</h1>
                     </div>
 
                     <h6 style="margin-top: 20px; font-weight: 100;">
                         {{$t('txt_3')}}                        
                     </h6>
 
-                    <ul class="list-style-1">
+                    <!-- <ul class="list-style-1">
                         <li>{{$t('sub_txt_1')}}</li>
                         <li>{{$t('sub_txt_2')}}</li>
                         <li>{{$t('sub_txt_3')}}</li>
                         <li>{{$t('sub_txt_4')}}</li>
                         <li>{{$t('sub_txt_5')}}</li>
-                    </ul>
+                    </ul> -->
 
                 </div>
                 <div class="col-md-6">

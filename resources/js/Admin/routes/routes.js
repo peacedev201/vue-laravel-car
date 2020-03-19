@@ -5,6 +5,8 @@ import Auction from '../layout/Auction.vue'
 import AuctionRemove from '../layout/AuctionRemove.vue'
 import AuctionBids from '../layout/AuctionBids'
 import Users from '../layout/Users'
+
+
 const routes = [
   {
     path: '/login',
@@ -16,6 +18,7 @@ const routes = [
     path: '/',
     component: Dashboard,
     name: 'Dashboard',
+
     children: [
       {
         path: '/dashboard',

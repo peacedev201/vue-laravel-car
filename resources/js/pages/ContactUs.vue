@@ -9,7 +9,13 @@
                 <div class="col-md-8 col-lg-5 contactus_title">
                     <h1 style="text-transform: uppercase;">
                         {{$t('contact_us')}}
-                    </h1>
+                    </h1>                             
+                </div>
+                <div class="col-md-12 col-lg-12" style="margin-left:45px; margin-bottom:30px">
+                    <h5>{{$t('contact_opening_time')}}</h5>
+                    <h5>{{$t('contact_mobile')}}</h5>
+                    <h5>{{$t('contact_email')}}</h5>
+                    <h5>{{$t('contact_address')}}</h5>
                 </div>
             </div>
             <form>
@@ -109,6 +115,7 @@ export default {
     }
     .contactus_title {
         padding: 50px;
+        padding-bottom: 30px;
     }
     input {
         background: #eceff3;
@@ -124,7 +131,7 @@ export default {
         width: 100%;
     }
     .google-map-div {
-        margin-top: 300px; 
+        margin-top: 435px; 
         padding: 0; 
         padding-bottom: 100px;
     }
